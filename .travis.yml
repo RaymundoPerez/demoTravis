@@ -10,10 +10,7 @@ script:
 - yarn run build
 deploy:
   provider: firebase
-  project: dezkacv
+  project: fir-travis-c7c73
   skip_cleanup: true
   token:
-    secure: 
-env:
-  global:
     secure: vcTkplyz0VbRjcMFwXNYKf5WCcW82AmjM2FgI7KMRsP4skrBk5iZKlhMh13JeoKUALEZDmF9z4WN2wWcW1Jr2xu0eI5vw6OhCrs8MXblT99n+jsIa5TC2MM36wQi0y8VqoiAyyy6RCESD9qBgxWF1Iln5F9S2PnpL6+jMnP1sF/GcmggZKtGJmUo88Zao8Fdb6l06wTy/mI28mc7cYDkcTKJAhYBh54885DDX80lxoR2+cqkruXPiRZtpBU827w9bW54Sj7qhiY9RhsRXwAFG1TI3JGYErx+/pxf3mpVGeWbpiS0srNiCAc9KqPRlFFr9mX3Xv8oso9RvRRRPO9YGGdfZ3yewfZvOTwAGLFihxSMa7O0WEzZzcd/+/RdwQ3FV5niZqPfbFh4CCDzGNu1RuLFtRtsPF4VaKdSYqwtrhOQVXqt/gmrZ501F0MsUGBB5vNNFgrpugShccbRToLh5IBWPxStuJZJcjN+Xw3UcXQNsbWDSbTPOn6F2WSkgeMMG03zytzg80yj8uqRdjf0Gkrc6sNcFBt0rr1d1V+bM8z9iRYPd3h/cmrUVFGdiZmYnckJjj7fnjyl3VMJanRfW8H30KimFhZOiv43EkPO8Wl2TxXJzYmjY2WkwnbKfGKGxvlCh6mZs6+cukPqnpWd9sXr88BB7t49roUbfNNaJVc=
